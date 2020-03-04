@@ -14,11 +14,12 @@ const int SWITCH_ON = 1;
 const int SWITCH_OFF = 0;
 
 // Wifi Creds
-const char *ssid = "Nokia";
-const char *password = "neoneoneo";
+// Enter your wifi creds accordingly 
+const char *ssid = "Wifi SSID";
+const char *password = "Wifi Password";
 
 // End point URI
-char *endPoint = "http://192.168.43.243/data/5252";
+char *endPoint = "http address uri";
 
 // Setup WiFi Client
 WiFiClient wifiClient;
